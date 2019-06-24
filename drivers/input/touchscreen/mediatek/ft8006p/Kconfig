@@ -1,0 +1,16 @@
+#
+# Touchscreen driver configuration
+#
+config TOUCHSCREEN_FT8006P
+    bool "Focaltech Ts for Mediatek"
+    depends on SPI_MASTER
+    default n
+    help
+      Say Y here if you have Focaltech touch panel.
+      If unsure, say N.
+
+config TOUCHSCREEN_MTK_FTS_DIRECTORY
+    string "Focaltech ts directory name"
+    default "ft8006p"
+    depends on TOUCHSCREEN_FT8006P
+    

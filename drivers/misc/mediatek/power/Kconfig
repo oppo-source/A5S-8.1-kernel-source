@@ -1,0 +1,10 @@
+# Power Related
+config MTK_PMIC
+	bool "MediaTek PMIC driver"
+	---help---
+	  MediaTek PMIC driver
+
+config MTK_SM5414_SUPPORT
+	bool "Charger Driver for SM SM5414 Charger IC"
+	help
+	  SM SM5414 driver.

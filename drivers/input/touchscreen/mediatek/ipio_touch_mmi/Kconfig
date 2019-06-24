@@ -1,0 +1,22 @@
+#*******************************************************************************
+# Copyright (C), 2008-2018, OPPO Mobile Comm Corp., Ltd.
+# ODM_WT_EDIT
+# FILE: - Kconfig
+# Description : This program is for ili9881 driver configuration
+# Version: 1.0
+# Date : 2018/5/17
+# Author: Zhonghua.Hu@ODM_WT.BSP.TP-FP.TP
+#
+# -------------------------Revision History:----------------------------------
+#  <author>	 <data> 	<version >			<desc>
+#
+#
+#*****************************************************************************/
+config TOUCHSCREEN_ILI9881H
+	bool "li9881 touchpanel driver"
+	default y
+	help
+	  Say Y here if you have a Novatek NT36xxx no flash touchscreen connected
+	  to your system by SPI bus.
+
+	  If unsure, say N.
